@@ -13,7 +13,7 @@ public class NewAct extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.valu);
-        t=(TextView)findViewById(R.id.yv);
+       t=(TextView)findViewById(R.id.yv);
         String data;
         data=getIntent().getStringExtra("sonam");
         t.setText(""+data);
