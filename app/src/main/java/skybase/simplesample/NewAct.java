@@ -17,6 +17,6 @@ public class NewAct extends Activity {
         String data;
         data=getIntent().getStringExtra("sonam");
         t.setText(""+data);
-
+//Pan Peter
     }
 }
